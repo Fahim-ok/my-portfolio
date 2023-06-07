@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/Photo_fw14_056.png";
+import profilePic from "../../assets/Photo_fw14_056.jpg";
 
 
 export const Introduction = () => {
@@ -17,50 +17,45 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img src={profilePic} alt="Images" />
+              <img src={profilePic} alt="Images" style={{ width: "200px", height: "200px" }} />
             </div>
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Shreyas Khakal </span> and I am from{" "}
+                <span className="different">Md.Fahim-Ul-Islam </span>{" "}
                 <span className="different">
                   {" "}
-                  Ahmednagar, Maharashtra (India)
+                  {/* Ahmednagar, Maharashtra (India) */}
                 </span>
-                . I have completed my graduation in BTech (Agril. Engineering)
+                . I have completed my graduation in BSc(Computer Science & Engineering)
                 from{" "}
                 <span className="different">
-                  VNMKV Agricultural University, Parbhani (MH)
+                 BRAC University.
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                {" "}
+                <span className="different"></span> 
+                
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4>My Current Plannings</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Entrepreneure{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Chess Enthusiast{" "}
+                Learning new frameworks & technologies{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                YouTuber{" "}
+                Working on some assigned research projects{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Poet{" "}
+                Preparing for certifications exam{" "}
               </h4>
+              
             </div>
           </div>
         </div>

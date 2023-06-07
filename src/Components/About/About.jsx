@@ -17,18 +17,15 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Shreyas Khakal</span>
+          Hello, I am <span className="about__name">Md.Fahim-Ul-Islam</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+        Equipped with a diverse range of tools and technologies, and an eagerness to acquire new skills. 
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Shreyasgkhakal100"
+            href="https://github.com/Fahim-ok"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -37,7 +34,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:shreyasgkhakal100@gmail.com"
+            href="mailto:fahimislambd2000@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -55,7 +52,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/shreyas-g-khakal/"
+            href="https://www.linkedin.com/in/fahim-ul-islam-99707b214/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -63,7 +60,7 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/KhakalShreyas"
             aria-label="twitter"
             className="link link--icon"
@@ -71,14 +68,14 @@ export const About = () => {
             rel="noreferrer"
           >
             <TwitterIcon />
-          </a>
+          </a> */}
         </div>
 
         <button
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing"
+              "https://drive.google.com/file/d/1_JRggla9zz3AfCnKQmKuAP1Ditot0C3h/view?usp=sharing"
             );
           }}
         >

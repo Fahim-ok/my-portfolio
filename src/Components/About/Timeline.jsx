@@ -32,81 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Dec 2021 - Feb 2022"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student Guide Cordinator
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School
-            </h4>
-            <p data-aos="fade-right">
-              Managing Team of 15 Student Guides directly and 100-150 students
-              indirectly with help of student guides.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Nov 2021 - Dec 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student Guide
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School
-            </h4>
-            <p data-aos="fade-right">
-              Mentoring and clearing student's doubts via one to one and one to
-              all video calls, Motivating students to do hard work, provides
-              emotional support to them & Helping students to start their career
-              in Tech.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Oct 2021 - Present"}
+            date={"Jan 2019 - May 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -128,22 +54,20 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              Undergraduate Student
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
+              BRAC University
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
-              and DSA. Also get to learn lot more other skills as well.
+              Successfully finished my undergraduate coureworks and thesis.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
+            date={"Nov 2022 - Dec 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -165,23 +89,23 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Co-founder
+              Trainee
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Agricultural Training institute, Ahmednagar
+              KLATCH TECHNOLOGIES
+
             </h4>
             <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
+            Worked on the accurate and efficient annotation of data (image, text, audio,
+            video) using the provided tools.Collected data from different sources, including internal databases and publicly
+            available sources and engaging in tagging, classification, processing.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Dec 2019 - Aug 2021"}
+            date={" Jun 2021 - Sep 2021" }
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -203,22 +127,24 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Founder & Director (Part Time)
+              Intern
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Sitocrats Pvt. Ltd., Parbhani (MH)
+              JAILBREAKVPN.COM (A CYBERSECURITY FIRM)
             </h4>
             <p data-aos="fade-right">
-              Started in Dec 2019 and delivered 15+ Projects on wordpress,
-              Angular, Nodejs and Flutter till Aug 2021.
+             Maintained accurate, well-organized company records.
+             Took ownership of allocated duties, completing projects to high standards
+             within allotted timeframes.
+
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Jul 2017 - Aug 2021"}
+            date={"Jan 2016- October 2018"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -240,23 +166,24 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [BTech. (Agril. Engineering)]
+              HSC Passed Student
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              CAET, VNMKV University, Parbhani (MH)
+              Jalalabad Cantonment
+               Public School And College
+               , Sylhet
             </h4>
             <p data-aos="fade-right">
-              Studied Agricultural Engineering which consists of all the
-              subjects accross all engineering and agricultural streams. Passed
-              with 8.32 CGPA
+             Scored GPA-5.00 in Science.
+             Also participated extracurrilar activites(mainly debate)
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"March 2017"}
+            date={"Feb 2014 - Aug 2016"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -272,24 +199,25 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [HSC (Science)]
+              SSC Passed Student
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Janata Jr. College, Ruichhattishi, Ahmednagar
+              Sylhet Government Pilot High School
             </h4>
             <p data-aos="fade-right">
-              Studied 12th Science and Passed with 85.69 Percentage.
+              Scored GPA-5.00 in Science
             </p>
           </VerticalTimelineElement>
+         
 
           <VerticalTimelineElement
             icon={<StarRateIcon />}
